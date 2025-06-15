@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Как поймать льва в пустыне?</title>
+  <!--[if lt IE 9]>      
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-bg">
+      <img src="images/header-title.png" alt="Как поймать льва в пустыне" width="456" height="166">
+    </div>
+  </header>
+  <div class="content-gradient">
+    <div class="content-bg">
+      <div class="content-white">
+
+        <aside>
+          <ul class="menu">
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="assumption.html">Допущения</a></li>
+            <li class="current"><span>Метод простых итераций</span></li>
+            <li><a href="random-number.html">Метод случайных чисел</a></li>
+            <li><a href="dixotomia.html">Метод дихотомии</a></li>
+            <li><a href="golden-section.html">Метод золотого сечения</a></li>
+          </ul>
+          <div class="interest">
+            <h3><img src="images/interest-title.png" alt="Интересная информация" width="164" height="30"></h3>
+            <p>Средний самец льва имеет длину около трех метров и весит
+              от 180 до 230 килограмм.</p>
+            <p>Львы питаются не только убитыми животными, они также не
+              брезгуют падалью.</p>
+          </div>
+        </aside>
+        <article>
+          <section>
+            <header>
+              <h1><img src="images/simple-title.png" alt="Метод простых итераций" height="30"></h1>
+            </header>
+            <p>
+              Разобьем пустыню на ряд элементарных прямоугольников, размер которых совпадает с размером клетки
+              для льва. Пронумеровав прямоугольники от 1 до N, начинаем последовательно накрывать их клеткой (рис. 1).
+              Каждое такое действие называется итерацией, что и послужило названием метода.
+            </p>
+            <div class="text-image">
+              <img src="images/fig2-1.png" alt="Разбиение пустыни на N элементарных прямоугольников" width="250">
+              <div>Рис. 1. Разбиение пустыни на N элементарных прямоугольников</div>
+            </div>
+            <p>
+              В результате максимум за N итераций лев будет пойман в клетку.
+            </p>
+            <p>
+              Как видно из приведенного рисунка, начинать поиски льва можно с любой клетки, главное, чтобы за
+              ограниченное количество шагов обойти все прямоугольники. При этом обход можно делать по вертикали,
+              горизонтали (рис. 2) или диагонали.
+            </p>
+            <div class="text-image">
+              <img src="images/fig2-2.png" alt="Обход пустыни по горизонтали" width="250">
+              <div>Рис. 2. Обход пустыни по горизонтали</div>
+            </div>
+          </section>
+
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="lion"><img src="images/lion.png" alt="" width="130" height="80"></div>
+    <div class="footer-bg">
+      <div class="copyright">
+        <p><strong>Учебный сайт «Как поймать льва в пустыне»</strong></p>
+        <p>&copy; Плотников Данил Андреевич</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
